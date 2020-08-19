@@ -1,0 +1,890 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: "Open Sans", Arial, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+/* - - - - M E N U - - - - */
+
+.menu {
+    background: #71B8FF;
+}
+
+.menu a{
+    color: #fff;
+    margin: 10px 10px;
+}
+
+.menu a:hover{
+    text-decoration: underline #fff;
+}
+
+.menu .boton-menu{
+    background: #004096;
+}
+
+/* - - - - C A R R U S E L - - - - */
+
+.imagen-carrusel{
+    width: 100%;
+    height: 900px;
+}
+
+.main .titulo{
+    margin: 50px 0px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+    overflow: hidden;
+}
+
+.texto-carrusel-1{
+    font-size: 80px;
+    margin-bottom: 40%;
+    overflow: hidden;
+    padding: 10px;
+    background: #f89e3c;
+}
+
+.texto-carrusel-3{
+    width: 65%;
+    text-align: left;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom:50%;
+    margin-left: 0px;
+    margin-top: 0px;
+    overflow: hidden;
+    padding: 20px;
+    background: #f76b1c;
+}
+
+.texto-carrusel-2{    
+    text-align: left;
+    font-size: 50px;
+    margin-bottom: 45%;
+    margin-left: 50%;
+    margin-top: 10%;
+    overflow: hidden;
+    background: #f89e3c;
+    padding: 20px;
+}
+
+.texto-carrusel-4 {
+    font-size: 50px;
+    overflow: hidden;
+    background: #004096;
+    margin-bottom: 10%;
+    padding: 20px;
+}
+
+/* - - - - S E R V I C I O S - - - - */
+
+.icono{
+    width: 150px;
+    align-items: center;
+    margin: 20px;
+    margin-bottom: 30px;
+}
+
+.texto-icono {
+    margin: 20px;
+}
+
+.negrita {
+    font-weight: 600;
+    font-style: italic;
+}
+
+/* ---- P R O C E D I M I E N T O ---- */
+
+.titulo-procedimiento{
+    margin: 70px 0;
+}
+
+.card-imagen {
+    width: 400px;
+}
+
+.card-derecha {
+    text-align: right;
+}
+
+.procedimiento-texto {
+    margin-top: 100px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.procedimiento-imagen {
+    float: left;
+    text-align: right;
+}
+
+.card-azul{
+    font-size: 20px;
+    color: #004096;
+    text-align: center;
+    font-weight: 300;
+}
+
+.procedimiento-azul{
+    color: #004096
+}
+.card-naranja{
+    font-size: 20px;
+    color: #f76b1c;
+    text-align: center;
+    font-weight: 300;
+}
+
+.procedimiento-naranja {
+    color: #f76b1c;
+}
+
+.procedimiento{
+    margin-bottom: 100px;
+}
+
+
+/* - - - - T I E N D A S - - - - */
+
+.tiendas {
+    background: #cecece;
+    padding: 50px 0;
+}
+
+.marca{
+    width: 250px;
+}
+
+.marca-grande {
+    width: 200px;
+}
+
+.primera-fila {
+    margin-bottom: 150px;
+    align-items: center;
+    
+}
+
+.primera-fila a img{
+    align-items: center;
+}
+
+.segunda-fila {
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+/* - - - - P R E C I O S - - - */
+
+.precios {
+    background: url('../img/bg9-naranja.jpg');
+    background-size: cover;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    padding: 70px 0;
+}
+
+.precios .titulo {
+    color: #fff;
+}
+
+.precios .azul {
+    background: #71B8FF;
+    text-align: center;
+    font-family: "Open Sans", Arial, sans-serif;
+    padding: 50px 0;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35);
+    margin: 0 50px;
+}
+
+.azul .nombre{
+    font-size: 35px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.azul .precio{
+    font-size: 50px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.azul .caracteristicas{
+    font-size: 25px;
+    color: #fff;
+    font-weight: 300;
+    list-style: none;
+    padding: 0 20px;
+    margin-bottom: 50px; 
+}
+
+.azul .caracteristicas li {
+    margin: 20px 0;
+    padding: 15px 0;
+    border-bottom: 1px solid #dedede;
+}
+
+.azul .btn {
+    width: 70%;
+    padding: 15px 0;
+    text-align: center;
+    display: inline-block;
+    border-radius: 100px;
+    font-size: 20px;
+}
+
+.azul a {
+    border: 2px solid #fff;
+    color: #ffffff
+}
+
+.azul a:hover{
+    background: #fff;
+    color: #71B8FF
+}
+
+.precios .blanco{
+    background: #ffff;
+    text-align: center;
+    font-family: "Open Sans", Arial, sans-serif;
+    padding: 50px 0;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35);
+    margin: 0 50px;
+}
+
+.blanco .nombre{
+    font-size: 35px;
+    color: #004096;
+    font-weight: 300;
+}
+
+.blanco .precio{
+    font-size: 50px;
+    color: #004096;
+    font-weight: 300;
+}
+
+.blanco .caracteristicas {
+    font-size: 25px;
+    color: #004096;
+    font-weight: 300;
+    list-style: none;
+    padding: 0 20px;
+    margin-bottom: 50px; 
+}
+
+.blanco .caracteristicas li{
+    margin: 20px 0;
+    padding: 15px 0;
+    border-bottom: 1px solid #dedede;
+}
+
+.blanco .btn {
+    width: 70%;
+    padding: 15px 0;
+    text-align: center;
+    display: inline-block;
+    border-radius: 100px;
+    font-size: 20px;
+}
+
+.blanco a {
+    border: 2px solid #004096;
+    color: #004096
+}
+
+.blanco a:hover{
+    background: #004096;
+    color: #fff;
+}
+
+/* - - - - U B I C A C I O N - - - - */
+
+.ubicacion{
+    margin: 50px 0;
+}
+
+.ubicacion .direccion p{
+    font-weight: 300;
+    text-align: center;
+    font-size: 25px;
+}
+
+.parrafo-uno{
+    margin-bottom: 0px;
+}
+
+.ubicacion .correo {
+    margin-top: 20px;
+}
+.ubicacion .correo p{
+    font-weight: 300;
+    text-align: center;
+    font-size: 25px;
+}
+
+.ubicacion .horarios p{
+    font-weight: 300;
+    text-align: center;
+    font-size: 25px;
+}
+
+/* - - - - M A P A - - - - */
+
+.mapa{
+    width: 100%;
+    overflow: hidden;
+}
+
+.mapa iframe {
+    width: 100%;
+    max-height: 600px;
+}
+
+/* - - - - C O N T A C T O - - - - */
+
+.contacto{
+    margin-bottom: 100px;
+}
+
+.contacto-mensaje {
+    margin-top: 20px;
+}
+
+.contacto textarea {
+    height: 100px;
+}
+
+.boton-enviar{
+    margin-top: 20px;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-weight: 300;
+}
+
+/* - - - - R E D E S S O C I A L E S- - - - */
+
+.redes-sociales{
+    background: #3c4045;
+    height: 150px;    
+    overflow: hidden;
+}
+
+/* - - - - L O G O - - - - */
+
+.redes-sociales .logo {
+    width: 200px;
+    margin-top: 20px;
+}
+
+/* - - - - R E D E S - - - - */
+
+.redes{
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+.redes a {
+    align-items: center;
+    font-size: 45px;
+    color: #fff;
+    border-radius: 5%;
+    padding: 40px;
+}
+
+.redes i {
+    margin-top: 20px;
+}
+
+
+.facebook:hover{
+    background: #3b5998;
+}
+
+.instagram:hover{
+    background: #c13584;
+}
+
+.whatsapp:hover {
+    background: #075e54;
+}
+
+/* - - - - F O O T E R - - - - */
+
+/* - - - - C R E D I T O S - - - - */
+
+.creditos {
+    background: #000;
+    text-align: center;
+}
+
+.referencia{
+    color: #fff;
+    text-decoration: none;
+}
+
+.referencia:hover{
+    color: #76797e
+}
+
+/* - - - - M E D I A Q U E R I E S - - - - */
+
+@media screen and (max-width:1400px){
+    header .texto-carrusel-1{
+        font-size: 50px;
+    }
+
+    header .texto-carrusel-3 {
+        font-size: 40px;
+        margin-bottom: 70%;
+    }
+
+    header .texto-carrusel-2 {
+        font-size: 40px;
+        margin-bottom: 60%;
+    }
+
+    header .texto-carrusel-4 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:992px){
+
+    /* - - - - H E A D E R - - - - */
+
+    header .imagen-carrusel {
+        height: 700px;
+    }
+    
+    header .texto-carrusel-1{
+        font-size: 40px;
+        margin-bottom: 70%;
+        overflow: hidden;
+    }
+
+    header .texto-carrusel-3{
+        font-size: 30px;
+        margin-bottom:75%;
+    }
+
+    header .texto-carrusel-2{    
+        font-size: 25px;
+        margin-bottom: 70%;
+    }
+    
+    header .texto-carrusel-4 {
+        font-size: 30px;
+    }
+
+    /* - - - - M A I N - - - - */
+
+    .main .titulo{
+        font-size: 35px;
+    }
+
+    /* S E R V I C I O S */
+
+    .main .icono {
+        width: 125px;
+    }
+
+    .main .texto-icono {
+        font-size: 15px;
+        margin: 0px;
+    }
+
+    /* P R O C E D I M I E N T O */
+
+    .main .card-imagen {
+        width: 250px;
+        height: 200px;
+    }
+
+    .procedimiento .card-text {
+        font-size: 18px;
+    }
+
+    .procedimiento .titulo {
+        margin: 20px;
+    }
+
+    .procedimiento-texto {
+        font-size: 18px;
+    }
+
+    /* T I E N D A S */
+
+    .tiendas .titulo {
+        margin: 10px;
+    }
+
+    .tiendas .marca {
+        width: 150px;
+    }
+
+    .tiendas .marca-grande{
+        width: 120px;
+    }
+
+    /* P R E C I O S */
+
+    .precios .azul,
+    .precios .blanco {
+        margin: 0;
+    }
+
+    .precios .azul li,
+    .precios .blanco li{
+        margin: 5px;
+    }
+
+    .precios .nombre {
+        font-size: 30px;
+    }
+
+    .precios .precio {
+        font-size: 40px;
+    }
+
+    .precios .btn-blanco,
+    .precios .btn-azul{
+        padding: 5px;
+    }
+
+    /* U B I C A C I O N */
+
+    .ubicacion .direccion p,
+    .ubicacion .correo p,
+    .ubicacion p,
+    .ubicacion .horarios p{
+        font-size: 20px;
+    }
+
+
+}
+
+@media screen and (max-width:768px){
+
+/* - - - - H E A D E R - - - - */
+
+    header .imagen-carrusel {
+        height: 600px;
+    }
+
+    header .texto-carrusel-3{
+        font-size: 25px;
+        margin-bottom:80%;
+        padding: 10px;
+    }
+
+    header .texto-carrusel-2{    
+        font-size: 25px;
+        margin-bottom: 75%;
+        padding: 10px;
+    }
+    
+    header .texto-carrusel-4 {
+        font-size: 25px;
+        padding: 10px;
+    }
+
+/* - - - - M A I N - - - - */
+
+/* P R O C E D I M I E N T O */
+
+    .procedimiento .card-text {
+        font-size: 15px;
+    }
+
+    .main .card-imagen {
+        width: 210px;
+        height: 150px;
+    }
+
+    .procedimiento .card-body {
+        padding: 10px;
+    }
+    
+    .procedimiento-texto {
+        font-size: 15px;
+    }
+
+/* T I E N D A S */
+
+    .tiendas {
+        padding: 0px;
+    }
+    .tiendas img{
+        padding: 20px;
+    }
+
+    .tiendas .titulo {
+        margin:0;
+    }
+
+    .tiendas .marca{
+        width: 250px;
+        
+    }
+
+    .tiendas .marca-grande{
+        width: 180px;
+        padding: 10px;
+    }
+
+    .tiendas .primera-fila{
+        margin-bottom: 10px;
+    }
+
+/* P R E C I O S */
+
+    .precios .azul,
+    .precios .blanco {
+        margin: 10px;
+    }
+
+    .precios .azul li,
+    .precios .blanco li{
+        margin: 5px;
+    }
+
+    .precios .nombre {
+        font-size: 25px;
+    }
+
+    .precios .precio {
+        font-size: 35px;
+    }
+    
+/* C O N T A C T O */
+
+    .contacto .form-nombre{
+        margin-bottom: 10px;
+    }
+    
+    .clase-boton{
+        padding: 0px;
+    }
+
+/* F O O T E R */
+    
+    .redes-sociales {
+        display: flex;
+        height: 150px;
+        overflow: visible;
+    }
+
+    .redes-sociales .col-logo{     
+        width: 300px;   
+    }
+
+    .redes-sociales .logo{
+        width: 150px;
+    }
+   
+    .redes-sociales .redes{
+        width: 450px;
+    }
+}
+
+@media screen and (max-width:719px){
+    .redes-sociales {
+        display: flex;
+        height: 150px;
+        overflow: hidden;
+    }
+
+    .redes-sociales .col-logo{     
+        width: 30%;   
+    }
+
+    .redes-sociales .logo{
+        margin-top: 40px;
+        margin-left: 10px;
+        width: 150px;
+    }
+   
+    .redes-sociales .redes{
+        width: 70%;
+    }
+ 
+ 
+}
+
+@media screen and (max-width:575px){
+
+    /* - - - - H E A D E R - - - - */
+
+    header .imagen-carrusel {
+        height: 400px;
+    }
+
+    header .texto-carrusel-1 {
+        font-size: 25px;
+        margin-bottom: 70%;
+    }
+
+    header .texto-carrusel-3{
+        font-size: 20px;
+        margin-bottom:75%;
+        padding: 5px;
+    }
+
+    header .texto-carrusel-2{    
+        font-size: 18px;
+        margin-bottom: 70%;
+        padding: 10px;
+    }
+    
+    header .texto-carrusel-4 {
+        font-size: 18px;
+        padding: 5px;
+    }
+
+    /* - - - - M A I N - - - - */
+
+    .main .titulo {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .servicios .icono {
+        width: 100px;
+        align-items: center;
+    }
+
+    .card {
+        width: 150px;
+    }
+
+    .card-movil{ 
+        width: 40%;
+    }
+
+    .card-texto {
+        width: 60%;
+    }
+
+    .main .card-imagen {
+        width: 150px;
+        height: 120px;
+    } 
+}
+
+@media screen and (max-width:376px){
+
+    .main .titulo{
+        font-size: 30px;
+    }
+
+    .procedimiento .procedimiento-texto {
+        font-size: 12px;
+    }
+
+    .procedimiento .card {
+        width: 120px;
+    }
+    .procedimiento .card-imagen {
+        width: 120px;
+        height: 100px;
+    }  
+    .procedimiento .card-text {
+        font-size: 10px;
+    }
+
+    .tiendas .marca {
+        width: 150px;
+    }
+
+    .tiendas .marca-grande{
+        width: 100px;
+    }
+
+    .tiendas .row-titulo,
+    .tiendas .titulo-procedimiento {
+        margin: 20px
+    }
+
+    .precios{
+        padding: 0px;
+    }
+
+    .precios .azul .nombre,
+    .precios .blanco .nombre{
+        font-size: 20px;
+    }
+
+    .precios .azul .precio,
+    .precios .blanco .precio{
+        font-size: 30px;
+    }
+
+    .precios .azul,
+    .precios .blanco {
+        padding: 20px;
+    }
+
+    .precios .azul .caracteristicas,
+    .precios .blanco .caracteristicas {
+        margin-bottom: 10px;
+    }
+
+    .precios .azul .caracteristicas li,
+    .precios .blanco .caracteristicas li{
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .precios .azul .btn-azul,
+    .precios .blanco .btn-blanco {
+        padding: 5px;
+        font-size: 15px;
+    }
+
+    .ubicacion .titulo{
+        margin: 20px;
+    }
+
+    .mapa{
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .mapa iframe {
+        width: 100%;
+        max-height: 400px;
+    }
+    
+    .redes-sociales .logo{
+        width: 100px;
+    }
+
+    .redes-sociales .col-logo{
+        width:40%;
+    }
+
+    .redes-sociales .redes{
+        width: 60%;
+        padding: 0px;
+    }
+
+    .redes-sociales .redes a{
+        font-size: 30px;
+        padding: 20px;
+    }
+
+    .footer .referencia{
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+}
