@@ -1,0 +1,56 @@
+.main .titulo-calculadora {
+    margin: 70px;
+    text-align: center;
+}
+
+.main .titulo-calculadora h2{
+    overflow: hidden;
+}
+
+.main .calculadora .medida {
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.main .calculadora .medida .medidas {
+    margin-bottom: 30px;
+}
+
+.main .calculadora .flex-centered{
+    display: inline-block;
+    justify-content: center; 
+}
+
+.main .calculadora .respuesta h4{
+    overflow: hidden;
+    text-align: center;
+    margin: 20px;
+}
+
+.main .calculadora .dolar h2{
+    margin: 10px;
+    padding: 20px;
+    background-color: #f89e3c;
+}
+
+.main .calculadora .subtitulo h3{
+    overflow: hidden;
+    margin-bottom: 30px;
+    text-align: center;
+    
+}
+
+.main .calculadora .textos .check {
+    color: #004096 ;
+}
+
+.main .calculadora .textos .not-check {
+    color: #f76b1c ;
+}
+
+.main .calculadora .textos h4{
+    font-family: "Open Sans", Arial, Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    overflow: hidden;
+    margin: 20px;
+}
