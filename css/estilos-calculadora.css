@@ -42,6 +42,7 @@
 
 .main .calculadora .textos .check {
     color: #004096 ;
+    line-height: 120%;
 }
 
 .main .calculadora .textos .not-check {
@@ -53,4 +54,52 @@
     font-size: 25px;
     overflow: hidden;
     margin: 20px;
+}
+
+.redes-sociales {
+    margin-top: 29px;
+}
+
+@media screen and (max-width:992px){
+
+    .main .calculadora .subtitulo h3,
+    .main .calculadora .textos h4{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .main .titulo-calculadora {
+        margin-bottom: 0px;
+    }
+    .calculadora .form-group{
+        margin-right: 50px;
+    }
+
+    .calculadora .form-group .custom-select {
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+    .main .calculadora .medida .medidas{
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width:376px){
+    .main .titulo-calculadora h2{
+        font-size: 20px;
+    }
+
+    .main .calculadora .medida{
+        margin-top: 15px;
+        margin-right: 10px;
+        margin-left: 50px;
+    }
+
+    .main .calculadora .respuesta h4{
+        font-size: 20px;
+    }
+
+    
 }

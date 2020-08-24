@@ -15,6 +15,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/script-calculadora.js"></script>
 
 </head>
 
@@ -73,12 +74,11 @@
 
         <section class="calculadora">
             <div class="row">
-                <div class="col-md-6 medida">
-                   
+                <div class="col-md-6 medida">                   
                     <div class="form-group">
                         <div class="row">
                             <div class="col-md-6">                           
-                                <input type="number" class="form-control medidas" id="alto"
+                                <input type="number" min="1" class="form-control medidas" id="alto"
                                 aria-describedby="emailHelp" placeholder="ALTO">
                             </div>
 
@@ -94,7 +94,7 @@
                         
                         <div class="row">
                             <div class="col-md-6">                           
-                                <input type="number" class="form-control medidas" id="alto"
+                                <input type="number" min="1" class="form-control medidas" id="ancho"
                                 aria-describedby="emailHelp" placeholder="ANCHO - PROFUNDIDAD">
                             </div>
 
@@ -109,7 +109,7 @@
                         
                         <div class="row">
                             <div class="col-md-6">                           
-                                <input type="number" class="form-control medidas" id="alto"
+                                <input type="number" min="1" class="form-control medidas" id="profundidad"
                                 aria-describedby="emailHelp" placeholder="LARGO">
                             </div>
 
@@ -124,7 +124,7 @@
                         
                         <div class="row">
                             <div class="col-md-6">                           
-                                <input type="number" class="form-control medidas" id="alto"
+                                <input type="number" min="1" class="form-control medidas" id="peso"
                                 aria-describedby="emailHelp" placeholder="PESO">
                             </div>
 
@@ -188,15 +188,8 @@
                             <h4><i class="not-check fa fa-times-circle"></i> Cobramos el valor mayor entre peso y volumen</h4>
                         </div>
                     </div>
-
-
-                </div>
-            
-
-                
-            </div>
-            
-                  
+                </div>                      
+            </div>                            
         </section>
 
         <section class="redes-sociales">
