@@ -1,15 +1,15 @@
 $(document).ready(function(){
     var Servicios = $('#servicios').offset().top;
-    var Procedimiento = $('#procedimiento').offset().top
-    var Tiendas = $('#tiendas').offset().top
-    var Precios = $('#precios').offset().top
-    var Ubicacion = $('#ubicacion').offset().top
-    var Contacto = $('#contacto').offset().top
-    var TiendasPasos = $('#tiendas').offset().top
-    var UbicacionPasos = $('#ubicacion').offset().top
-    var ContactoPasos = $('#contacto').offset().top
-    var BotonContactoAzul = $('#contacto').offset().top
-    var BotonContactoBlanco = $('#contacto').offset().top
+    var Procedimiento = $('#procedimiento').offset().top;
+    var Tiendas = $('#tiendas').offset().top;
+    var Precios = $('#precios').offset().top;
+    var Ubicacion = $('#ubicacion').offset().top;
+    var Contacto = $('#contacto').offset().top;
+    var TiendasPasos = $('#tiendas').offset().top;
+    var UbicacionPasos = $('#ubicacion').offset().top;
+    var ContactoPasos = $('#contacto').offset().top;
+    var BotonContactoAzul = $('#contacto').offset().top;
+    var BotonContactoBlanco = $('#contacto').offset().top;
 
     $('#btn-servicios').on('click', function(e){
         e.preventDefault();

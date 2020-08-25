@@ -77,13 +77,23 @@
                 <div class="col-md-6 medida">                   
                     <div class="form-group">
                         <div class="row">
+                            <div class="col-md-10">
+                                <select id="transporte" class="custom-select custom-select transporte">
+                                    <option selected>Selecciona el tipo de transporte</option>
+                                    <option value="1">Aéreo</option>
+                                    <option value="2">Marítimo</option>
+                                </select>
+                            </div>                            
+                        </div>
+
+                        <div class="row">
                             <div class="col-md-6">                           
-                                <input type="number" min="1" class="form-control medidas" id="alto"
+                                <input type="text" class="form-control medidas" id="alto"
                                 aria-describedby="emailHelp" placeholder="ALTO">
                             </div>
 
                             <div class="col-md-4">
-                                <select class="custom-select custom-select">
+                                <select id="medida1" class="custom-select custom-select">
                                     <option selected>Selecciona la medida</option>
                                     <option value="1">CM.</option>
                                     <option value="2">IN.</option>
@@ -94,12 +104,12 @@
                         
                         <div class="row">
                             <div class="col-md-6">                           
-                                <input type="number" min="1" class="form-control medidas" id="ancho"
+                                <input type="text" class="form-control medidas" id="ancho"
                                 aria-describedby="emailHelp" placeholder="ANCHO - PROFUNDIDAD">
                             </div>
 
                             <div class="col-md-4">
-                                <select class="custom-select custom-select">
+                                <select id="medida2" class="custom-select custom-select">
                                     <option selected>Selecciona la medida</option>
                                     <option value="1">CM.</option>
                                     <option value="2">IN.</option>
@@ -109,12 +119,12 @@
                         
                         <div class="row">
                             <div class="col-md-6">                           
-                                <input type="number" min="1" class="form-control medidas" id="profundidad"
+                                <input type="text" class="form-control medidas" id="largo"
                                 aria-describedby="emailHelp" placeholder="LARGO">
                             </div>
 
                             <div class="col-md-4">
-                                <select class="custom-select custom-select">
+                                <select id="medida3" class="custom-select custom-select">
                                     <option selected>Selecciona la medida</option>
                                     <option value="1">CM.</option>
                                     <option value="2">IN.</option>
@@ -124,12 +134,12 @@
                         
                         <div class="row">
                             <div class="col-md-6">                           
-                                <input type="number" min="1" class="form-control medidas" id="peso"
+                                <input type="text" class="form-control medidas" id="peso"
                                 aria-describedby="emailHelp" placeholder="PESO">
                             </div>
 
                             <div class="col-md-4">
-                                <select class="custom-select custom-select">
+                                <select id="peso" class="custom-select custom-select">
                                     <option selected>Selecciona la medida</option>
                                     <option value="1">KG.</option>
                                     <option value="2">LB.</option>
@@ -140,7 +150,7 @@
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="flex-centered">
-                                    <button type="button" class="btn btn-primary btn-lg boton-calcular">Calcular</button>
+                                    <button type="button" onclick="selectMedida()" class="btn btn-primary btn-lg boton-calcular">Calcular</button>
                             
                                 </div>
                             </div>
