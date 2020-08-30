@@ -31,11 +31,19 @@
     margin: 20px;
 }
 
-.main .calculadora .dolar h2{
+.main .calculadora .dolar .precioestilos{
     margin: 10px;
     padding: 20px;
     background-color: #f89e3c;
+    height: 100px;
+    font-size: 40px;
+    text-align: center;
 }
+
+.main .calculadora .dolar .precioestilos h2 {
+    overflow: hidden;
+}
+
 
 .main .calculadora .subtitulo h3{
     overflow: hidden;

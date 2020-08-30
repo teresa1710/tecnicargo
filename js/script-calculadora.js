@@ -11,49 +11,71 @@ function calculadora(){
     var codigoMedidaLargo = document.getElementById('medida3').value;
     
     var codigoPeso = document.getElementById('codigopeso').value;
-
+    
     var cmAinches = 0.39370;
     var kgAlibras = 2.2046;
 
-    var volumenAereo;
+    var volumenAereo,volumenMaritimo,precioAereo, precioMaritimo, 
+    precioAereoConDolar, precioMaritimoConDolar, precioAereoString, precioMaritimoString;
 
     if(codigoMedidaAlto==1){
         alto=alto*cmAinches;
-        alert('Centímetros');
+        //alert('Centímetros');
     }else if(codigoMedidaAlto==2){
-        alert('Inches')
+        //alert('Inches')
     }
 
     if(codigoMedidaAncho==1){
         ancho=ancho*cmAinches;
-        alert('Centimetros');
+        //alert('Centimetros');
     }else if(codigoMedidaAncho==2){
-        alert('Inches');
+        //alert('Inches');
     }
 
     if(codigoMedidaLargo==1){
         largo=largo*cmAinches;
-        alert('Centimetros');
+        //alert('Centimetros');
     }else if(codigoMedidaLargo==2){
-        alert('Inches');
+        //alert('Inches');
     }
 
     if(codigoPeso==1){
         peso=peso*kgAlibras;
-        alert('Kilos');
+        //alert('Kilos');
     }else if(codigoPeso==2){
-        alert('Libras');
+        //alert('Libras');
     }
 
     if(codigoTransporte==1){
         //Es aereo
-        alert('Transporte seleccionado: Aereo. Código: ' + codigoTransporte);
+        //alert('Transporte seleccionado: Aereo. Código: ' + codigoTransporte);
         volumenAereo=(alto*ancho*largo)/166;
-        alert(volumenAereo);
+        //alert(volumenAereo);
 
+        if(volumenAereo>=peso){
+            precioAereo=volumenAereo*4;
+        }else if(peso>volumenAereo){
+            precioAereo=peso*4
+        }
+
+        //alert('Precio: $ ' + precioAereo);
+        precioAereoString = precioAereo.toFixed(2);
+        precioAereoConDolar = '$ ' + precioAereoString;
+        var caja = document.getElementById('preciototal').innerHTML = precioAereoConDolar;
+        caja.setAttribute('class', 'precioestilos');
+        
     } if(codigoTransporte==2){
         //Es Marítimo
-        alert('Transporte seleccionado: Marítimo. Código: ' + codigoTransporte);
+       // alert('Transporte seleccionado: Marítimo. Código: ' + codigoTransporte);
+        
+        volumenMaritimo=(alto*ancho*largo)/1728;
+        precioMaritimo=volumenMaritimo*12;
+        
+        alert('Precio: $ ' + precioMaritimo);
+        precioMaritimoString = precioMaritimo.toFixed(2);
+        precioMaritimoConDolar = '$ ' + precioMaritimoString;
+        var cajaMaritimo = document.getElementById('preciototal').innerHTML = precioMaritimoConDolar;
+        cajaMaritimo.setAttribute('class', 'precioestilos');
 
     }else{
         alert('No seleccionó tipo de transporte');
