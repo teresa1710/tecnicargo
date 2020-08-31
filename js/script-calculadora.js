@@ -20,37 +20,27 @@ function calculadora(){
 
     if(codigoMedidaAlto==1){
         alto=alto*cmAinches;
-        //alert('Centímetros');
-    }else if(codigoMedidaAlto==2){
-        //alert('Inches')
     }
 
     if(codigoMedidaAncho==1){
         ancho=ancho*cmAinches;
         //alert('Centimetros');
-    }else if(codigoMedidaAncho==2){
-        //alert('Inches');
     }
 
     if(codigoMedidaLargo==1){
         largo=largo*cmAinches;
         //alert('Centimetros');
-    }else if(codigoMedidaLargo==2){
-        //alert('Inches');
     }
 
     if(codigoPeso==1){
         peso=peso*kgAlibras;
         //alert('Kilos');
-    }else if(codigoPeso==2){
-        //alert('Libras');
     }
-
+    
     if(codigoTransporte==1){
         //Es aereo
         //alert('Transporte seleccionado: Aereo. Código: ' + codigoTransporte);
         volumenAereo=(alto*ancho*largo)/166;
-        //alert(volumenAereo);
 
         if(volumenAereo>=peso){
             precioAereo=volumenAereo*4;
@@ -70,8 +60,7 @@ function calculadora(){
         
         volumenMaritimo=(alto*ancho*largo)/1728;
         precioMaritimo=volumenMaritimo*12;
-        
-        alert('Precio: $ ' + precioMaritimo);
+      
         precioMaritimoString = precioMaritimo.toFixed(2);
         precioMaritimoConDolar = '$ ' + precioMaritimoString;
         var cajaMaritimo = document.getElementById('preciototal').innerHTML = precioMaritimoConDolar;
