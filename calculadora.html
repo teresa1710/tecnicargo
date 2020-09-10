@@ -88,8 +88,7 @@
 
                         <div class="row">
                             <div class="col-md-6">                           
-                                <input type="text" class="form-control medidas" id="alto"
-                                aria-describedby="emailHelp" placeholder="ALTO">
+                                <input type="number" min="1" class="form-control medidas" id="alto" placeholder="ALTO">
                             </div>
 
                             <div class="col-md-4">
@@ -104,7 +103,7 @@
                         
                         <div class="row">
                             <div class="col-md-6">                           
-                                <input type="text" class="form-control medidas" id="ancho"
+                                <input type="number" min="1" class="form-control medidas" id="ancho"
                                 aria-describedby="emailHelp" placeholder="ANCHO - PROFUNDIDAD">
                             </div>
 
@@ -119,7 +118,7 @@
                         
                         <div class="row">
                             <div class="col-md-6">                           
-                                <input type="text" class="form-control medidas" id="largo"
+                                <input type="number" min="1" class="form-control medidas" id="largo"
                                 aria-describedby="emailHelp" placeholder="LARGO">
                             </div>
 
@@ -134,7 +133,7 @@
                         
                         <div class="row">
                             <div class="col-md-6">                           
-                                <input type="text" class="form-control medidas" id="peso"
+                                <input type="number" min="1" class="form-control medidas" id="peso"
                                 aria-describedby="emailHelp" placeholder="PESO">
                             </div>
 
@@ -148,22 +147,21 @@
                         </div> 
 
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-10 text-center">
                                 <div class="flex-centered">
-                                    <button type="button" onclick="calculadora()" class="btn btn-primary btn-lg boton-calcular">Calcular</button>
-                            
+                                    <button type="button" onclick="calculadora()" class="btn btn-primary btn-lg btn-block boton-calcular">Calcular</button>                       
                                 </div>
                             </div>
                         </div>
 
                         <div class="row respuesta">
-                            <div class="col-md-9">
+                            <div class="col-md-10">
                                 <h4> El precio aproximado de tu envío es:</h4>
                             </div>
                         </div>
 
                         <div class="row dolar">
-                            <div class="col-md-9">
+                            <div class="col-md-10">
                                 <div class="precioestilos" id="preciototal"></div> 
                                 
                             </div>
@@ -185,7 +183,7 @@
                             <h4><i class="check fa fa-check-circle"></i> Introduce el peso de tu producto y selecciona entre Libras y Kilos</h4>
                             <h4><i class="check fa fa-check-circle"></i> El cálculo arrojado será un valor estimado.</h4>
                             <h4><i class="check fa fa-check-circle"></i> El valor real dependerá del tamaño/peso con el que el empaque de tu artículo llegue a nuestro almacén.</h4>
-                            <h4><i class="check fa fa-check-circle"></i> Para los decimales utiliza un punto (.) y no una coma (,)</h4>
+                            <h4><i class="check fa fa-check-circle"></i> Para los decimales el sistema acepta tanto coma (,) como punto (.) </h4>
                         </div>
                     </div>
 

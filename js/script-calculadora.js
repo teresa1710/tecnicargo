@@ -20,21 +20,37 @@ function calculadora(){
 
     if(codigoMedidaAlto==1){
         alto=alto*cmAinches;
+    }else if(codigoMedidaAlto==2){
+        //Es Inches
+    }else{
+        alert('No seleccionó medida para ALTO');
     }
 
     if(codigoMedidaAncho==1){
+        //Centimetros
         ancho=ancho*cmAinches;
-        //alert('Centimetros');
+
+    } else if(codigoMedidaAncho==2){
+        //Es Inches
+    }else{
+        alert('No seleccionó medida para ANCHO');
     }
 
     if(codigoMedidaLargo==1){
         largo=largo*cmAinches;
-        //alert('Centimetros');
+    } else if(codigoMedidaLargo==2){
+        //Es Inches
+    }else{
+        alert('No seleccionó medida para LARGO');
     }
 
     if(codigoPeso==1){
         peso=peso*kgAlibras;
         //alert('Kilos');
+    } else if(codigoPeso==2){
+        //Es Libras
+    }else{
+        alert('No seleccionó medida para PESO');
     }
     
     if(codigoTransporte==1){
