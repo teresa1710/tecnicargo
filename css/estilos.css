@@ -11,8 +11,13 @@ body {
 
 /* - - - - M E N U - - - - */
 
-.menu {
+header .menu-bg{
     background: #71B8FF;
+}
+
+header .imagen-menu{
+    width: 140px;
+    margin-left: 100px;
 }
 
 .menu a{
@@ -355,7 +360,7 @@ body {
 /* - - - - C O N T A C T O - - - - */
 
 .contacto{
-    margin-bottom: 100px;
+    margin: 100px 0px;
 }
 
 .contacto-mensaje {
@@ -375,7 +380,7 @@ body {
 /* - - - - R E D E S S O C I A L E S- - - - */
 
 .redes-sociales{
-    background: #3c4045;
+    background: #a1a5ac;
     height: 150px;    
     overflow: hidden;
 }
@@ -698,6 +703,12 @@ body {
     }
 }
 
+
+@media screen and (max-width:779px){
+    .menu-bg .imagen-menu{
+        display: none;
+    }
+}
 @media screen and (max-width:719px){
     .redes-sociales {
         display: flex;
