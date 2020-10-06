@@ -5,8 +5,8 @@
     $mensaje = $_POST['mensaje'];
 
 
-    $destinatario = "teresa.tavernelli@gmail.com";
-    $asunto = "Contacto TECNICARGO";
+    $destinatario = "informacion@tutecnicargo.com";
+    $asunto = "CONTACTO INFORMACION TECNICARGO";
 
     $elcorreo = "De: $nombre \n";
     $elcorreo .= "Correo Electrónico: $correo \n";
