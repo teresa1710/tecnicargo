@@ -8,22 +8,24 @@
     $destinatario = "informacion@tutecnicargo.com";
     $asunto = "CONTACTO INFORMACION TECNICARGO";
 
-    $elcorreo = "De: $nombre \n";
+    $elencabezado = "Enviado desde la pagina web: www.tutecnicargo.com";
+
+    $elcorreo = "$elencabezado \n";
+    $elcorreo .= "De: $nombre \n";
     $elcorreo .= "Correo Electrónico: $correo \n";
     $elcorreo .= "$mensaje \n";
 
     mail($destinatario, $asunto, $elcorreo);
 
     if (@mail($destinatario, $asunto ,$elcorreo )) {
-            //Si el mensaje se envía muestra una confirmación
-            die("Gracias, su mensaje se envio correctamente.");
-            header("Location: http://www.tutecnicargo.com");
-        }else{
-            //Si el mensaje no se envía muestra el mensaje de error
-            die("Error: Su información no pudo ser enviada, intente más tarde");
-        }
+        echo "<script> alert ('Correo enviado EXITOSAMENTE') </script>";
+        echo "<script> setTimeout(\"location.href='index.html'\",2000)</script>";
+    
+    }else{
+        echo "<script> alert ('El Correo NO pudo ser enviado, intentelo mas tarde') </script>";
+    }
         
-        exit();
+    exit();
     
 
 ?>
