@@ -363,8 +363,9 @@ header .imagen-menu{
     margin: 100px 0px;
 }
 
-.contacto-mensaje {
+.contacto .segunda-fila{
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .contacto textarea {

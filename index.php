@@ -1,31 +1,27 @@
-<?php
-    
-    $nombre = $_POST['nombre'];
-    $correo = $_POST['correo'];
-    $mensaje = $_POST['mensaje'];
+<?php    
+    if(isset($_POST['enviar'])){
+        if(!empty($_POST['nombre']) && !empty($_POST['correo']) && !empty($_POST['telefono']) && !empty($_POST['direccion']) && !empty($_POST['mensaje'])){
+            $nombre = $_POST['nombre'];
+            $correo = $_POST['correo'];
+            $telefono = $_POST['telefono'];
+            $direccion = $_POST['direccion'];
+            $mensaje = $_POST['mensaje'];
 
+            $asunto = 'CONTACTO TECNICARGO';
+            $destinatario = 'informacion@tutecnicargo.com';
 
-    $destinatario = "informacion@tutecnicargo.com";
-    $asunto = "CONTACTO INFORMACION TECNICARGO";
+            $elcorreo = 'Este mensaje fue enviado desde el Sitio Web de Tecnicargo';
+            $elcorreo .= 'DE: $nombre \n';
+            $elcorreo .= 'CORREO ELECTRÓNICO: $correo \n';
+            $elcorreo .= 'NUMERO DE CONTACTO: $telefono \n';
+            $elcorreo .= 'DIRECCIÓN: $direccion \n';
+            $elcorreo .= 'MENSAJE: $mensaje \n';
 
-    $elencabezado = "Enviado desde la pagina web: www.tutecnicargo.com";
+            mail($destinatario, $asunto, $elcorreo);
 
-    $elcorreo = "$elencabezado \n";
-    $elcorreo .= "De: $nombre \n";
-    $elcorreo .= "Correo Electrónico: $correo \n";
-    $elcorreo .= "$mensaje \n";
-
-    mail($destinatario, $asunto, $elcorreo);
-
-    if (@mail($destinatario, $asunto ,$elcorreo )) {
-        echo "<script> alert ('Correo enviado EXITOSAMENTE') </script>";
-        echo "<script> setTimeout(\"location.href='index.html'\",2000)</script>";
-    
-    }else{
-        echo "<script> alert ('El Correo NO pudo ser enviado, intentelo mas tarde') </script>";
+            if($mail){                 
+                echo "<script> alert('Correo electrónico ENVIADO satisfactoriamente'); </script>"; 
+            }            
+        }
     }
-        
-    exit();
-    
-
 ?>

@@ -348,7 +348,7 @@
 
         <section class="contacto" id="contacto">
             <div class="container">
-                <form action="index.php" method="POST">
+                <form action="" method="POST">
                     <div class="row">
                         <div class="col-md-6">
                             <input class="form-nombre form-control form-control-lg" 
@@ -362,6 +362,18 @@
                     </div>
 
                     <div class="row">
+                        <div class="col-md-6">
+                            <input class="segunda-fila form-nombre form-control form-control-lg" 
+                            required id="telefono" name="telefono" type="text" placeholder="Numero de Teléfono" required>
+                        </div>
+
+                        <div class="col-md-6">
+                            <input class="segunda-fila form-nombre form-control form-control-lg" 
+                            required id="direccion" name="direccion" type="text" placeholder="Dirección" required>
+                        </div>
+                    </div>
+
+                    <div class="row">
                         <div class="col-md-12">
                             <textarea class="form-control contacto-mensaje" 
                             required id="message" name="mensaje" placeholder="Mensaje" required></textarea>
@@ -370,7 +382,7 @@
 
                     <div class="row">
                         <div class="col-xs-12 col-md-12 text-center clase-boton">
-                            <button type="submit" class="boton-enviar btn btn-primary btn-lg">Enviar</button>
+                            <button type="submit" name="enviar" class="boton-enviar btn btn-primary btn-lg">Enviar</button>
                         </div>
                     </div>
                 </form>
