@@ -70,7 +70,7 @@ $(document).ready(function(){
     $('#btn-contacto-pasos').on('click', function(m){
         m.preventDefault();
         $('html, body').animate({
-            scrollTop: 6000
+            scrollTop: 5200
         }, 500);
     });
 

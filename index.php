@@ -340,12 +340,6 @@
             </div>
         </section>
 
-        <section class="mapa">
-            
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d897.8838877587485!2d-80.3127530118562!3d25.818892406199954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9ba2f3ca7a8cf%3A0x606729604aaae344!2sMC%20Logistics%20Enterprises!5e0!3m2!1ses-419!2sve!4v1595973036924!5m2!1ses-419!2sve" width="800" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-            
-        </section>
-
         <section class="contacto" id="contacto">
             <div class="container">
                 <form method="POST">
@@ -364,7 +358,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <input class="segunda-fila form-nombre form-control form-control-lg" 
-                            required id="telefono" name="telefono" type="text" placeholder="Numero de Teléfono" required>
+                            required id="telefono" name="telefono" type="text" placeholder="Número de Teléfono" required>
                         </div>
 
                         <div class="col-md-6">
@@ -387,6 +381,10 @@
                     </div>
                 </form>
             </div>
+        </section>
+
+        <section class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d897.8838877587485!2d-80.3127530118562!3d25.818892406199954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9ba2f3ca7a8cf%3A0x606729604aaae344!2sMC%20Logistics%20Enterprises!5e0!3m2!1ses-419!2sve!4v1595973036924!5m2!1ses-419!2sve" width="800" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </section>
         
         <section class="redes-sociales">

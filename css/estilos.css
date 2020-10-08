@@ -355,12 +355,13 @@ header .imagen-menu{
 .mapa iframe {
     width: 100%;
     max-height: 600px;
+    vertical-align:bottom;
 }
 
 /* - - - - C O N T A C T O - - - - */
 
 .contacto{
-    margin: 100px 0px;
+    margin: 50px 0px;
 }
 
 .contacto .segunda-fila{
@@ -370,6 +371,10 @@ header .imagen-menu{
 
 .contacto textarea {
     height: 100px;
+}
+
+::placeholder{
+    font-size: 18px;
 }
 
 .boton-enviar{
@@ -384,6 +389,7 @@ header .imagen-menu{
     background: #a1a5ac;
     height: 150px;    
     overflow: hidden;
+    margin-top: 0px;
 }
 
 /* - - - - L O G O - - - - */
